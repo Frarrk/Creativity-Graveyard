@@ -1,0 +1,139 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans';
+    background: linear-gradient(to top, #5f5f5f, #1f1f1f);
+    min-height: 100vh;
+    background-attachment: fixed;
+    color: #eaeaea;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.text-box {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px 30px;
+    border-radius: 14px;
+    margin: 30px 0;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease;
+}
+
+.text-box:hover {
+    background: rgba(255, 255, 255, 0.09);
+    transform: translateY(-3px);
+}
+
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #bde3ff;
+    margin-bottom: 15px;
+}
+
+
+p, li {
+    font-size: 18px;
+    line-height: 1.75;
+    color: #f1f1f1;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+.button-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 8px;
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.18);
+}
+
+
+.info-table {
+    width: 100%;
+    border-collapse: separate;   
+    border-spacing: 0;          
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(4px);
+}
+
+
+.info-table th {
+    padding: 14px;
+    text-align: left;
+    font-size: 18px;
+    color: #d6ecff;
+    background: rgba(255,255,255,0.15);
+    border-bottom: 2px solid rgba(255,255,255,0.25);
+}
+
+
+.info-table td {
+    padding: 12px 14px;
+    font-size: 17px;
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+
+.info-table tr:nth-child(even) td {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+
+.info-table tr:hover td {
+    background: rgba(255,255,255,0.12);
+    transition: 0.2s;
+}
+
+
+.info-table tr:last-child td {
+    border-bottom: none;
+}
