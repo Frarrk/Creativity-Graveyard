@@ -50,6 +50,7 @@ body {
     color: white;
     text-decoration: none;
     transition: 0.3s;
+    margin-right: 50px;
 }
 
 .about-btn:hover {
@@ -132,3 +133,52 @@ p {
 html {
     scroll-behavior: smooth;
 }
+
+.contactmepls {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 35px 30px;
+
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    text-align: left;
+
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.contactmepls h2 {
+    font-size: 32px;
+    color: #d6ecff;
+    margin-bottom: 15px;
+}
+
+.contactmepls p {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #ffffff;
+}
+
+.contactmepls a {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #8cd1ff;
+    text-decoration: none;
+    border-bottom: 1px dashed #8cd1ff;
+    transition: 0.2s;
+}
+
+.contactmepls a:hover {
+    color: white;
+    border-bottom-color: white;
+    transform: scale(1.05);
+}
+
+.contactmepls .tiny {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
